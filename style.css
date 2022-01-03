@@ -1,0 +1,130 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap");
+
+body {
+  min-height: 1500px;
+  color: #30475e;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-size: 60px;
+  font-weight: 700;
+}
+
+h1::before {
+  content: "Net-";
+  color: #f05454;
+}
+
+.navbar {
+  background-color: #ffffff;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  font-family: "Poppins", sans-serif;
+}
+
+section {
+  margin: 30px auto 30px auto;
+}
+
+h5 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 50px;
+  font-family: "Poppins", sans-serif;
+  font-size: 30px;
+}
+
+h3 {
+  font-weight: 500;
+  font-family: "Poppins", sans-serif;
+}
+
+p {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+}
+
+section#landing-page {
+  display: block;
+  margin-top: 100px;
+  padding: 20px;
+  text-align: center;
+}
+
+.promo {
+  margin: auto;
+  border-radius: 20px;
+}
+
+div#landing-form .form-control {
+  width: 300px;
+  margin-right: 20px;
+}
+
+.tombol {
+  width: fit-content;
+  background-color: #30475e;
+  border-radius: 30px;
+}
+
+section#product h5 {
+  font-size: 15px;
+}
+
+.container-flex {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.card-promo {
+  margin: auto 20px 20px 20px;
+  flex: 1;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.content {
+  padding: 20px;
+  margin: 50px auto 50px auto;
+}
+
+section#pricing .header {
+  background-color: #30475e;
+  padding: 10px;
+}
+
+.title {
+  font-size: 20px;
+  color: white;
+}
+
+.header-text {
+  font-weight: 800;
+  font-size: 30px;
+}
+
+.card-tombol {
+  width: 200px;
+  border-radius: 20px;
+  background-color: #30475e;
+}
+
+@media (max-width: 768px) {
+  .container-flex {
+    flex-direction: column;
+  }
+}
+
+i {
+    color: #f05454;
+}
+
+.navbar-img{
+    width: 20%;
+}
